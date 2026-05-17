@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data / temp
+data/
+outputs/
+temp/
+
+# Model artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Ollama / HF cache (optional)
+.cache/
